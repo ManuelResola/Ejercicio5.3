@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </layout>
+    </appender>
+    <appender name="fileErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Agregue un filtro, el registro de errores solo genera información de error -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>error</level>
+        </filter>
+        <encoder>
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </encoder>
+        <!-- Estrategia rodante -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Ruta -->
+            <fileNamePattern>C:\Users\manuel.resola\Downloads\ej5.3-logging\src\main\java\com\spring_ej53\ej5\logging\archivolog.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+    <root level="warn">
+        <appender-ref ref="consoleLog"/>
+        <appender-ref ref="fileErrorLog"/>
+    </root>
+</configuration>

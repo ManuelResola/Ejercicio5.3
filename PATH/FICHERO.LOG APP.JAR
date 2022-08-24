@@ -1,0 +1,213 @@
+2022-08-23 14:37:52.760  INFO 17916 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 17916 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 14:37:52.765  INFO 17916 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 14:37:53.905  INFO 17916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 14:37:53.917  INFO 17916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 14:37:53.918  INFO 17916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 14:37:54.013  INFO 17916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 14:37:54.013  INFO 17916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2022-08-23 14:37:54.441  INFO 17916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 14:37:54.455  INFO 17916 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.195 seconds (JVM running for 2.653)
+2022-08-23 14:38:04.521  INFO 17916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 14:38:04.521  INFO 17916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 14:38:04.522  INFO 17916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-23 14:38:04.547  INFO 17916 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 14:38:04.548  WARN 17916 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 14:38:04.548 ERROR 17916 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:20:40.417  INFO 15208 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 15208 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:20:40.421  INFO 15208 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:20:41.515  INFO 15208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:20:41.525  INFO 15208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:20:41.526  INFO 15208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:20:41.612  INFO 15208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:20:41.612  INFO 15208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1129 ms
+2022-08-23 15:20:41.995  INFO 15208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:20:42.005  INFO 15208 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.068 seconds (JVM running for 2.487)
+2022-08-23 15:20:48.192  INFO 15208 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:20:48.194  INFO 15208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:20:48.194  INFO 15208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-23 15:20:48.221  INFO 15208 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:20:48.221  WARN 15208 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:20:48.222 ERROR 15208 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:23:57.367  INFO 2060 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 2060 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:23:57.372  INFO 2060 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:23:58.427  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:23:58.436  INFO 2060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:23:58.437  INFO 2060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:23:58.522  INFO 2060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:23:58.522  INFO 2060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1084 ms
+2022-08-23 15:23:58.873  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:23:58.884  INFO 2060 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.01 seconds (JVM running for 2.404)
+2022-08-23 15:24:52.348  INFO 2060 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:24:52.349  INFO 2060 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:24:52.351  INFO 2060 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-23 15:24:52.377  INFO 2060 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:24:52.378  WARN 2060 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:24:52.378 ERROR 2060 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:25:44.336  INFO 17548 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 17548 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:25:44.340  INFO 17548 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:25:45.383  INFO 17548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:25:45.392  INFO 17548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:25:45.393  INFO 17548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:25:45.482  INFO 17548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:25:45.482  INFO 17548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+2022-08-23 15:25:45.853  INFO 17548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:25:45.865  INFO 17548 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 1.99 seconds (JVM running for 2.391)
+2022-08-23 15:26:07.586  INFO 11276 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 11276 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:26:07.590  INFO 11276 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:26:08.604  INFO 11276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:26:08.614  INFO 11276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:26:08.615  INFO 11276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:26:08.721  INFO 11276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:26:08.721  INFO 11276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2022-08-23 15:26:09.101  INFO 11276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:26:09.115  INFO 11276 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.025 seconds (JVM running for 2.416)
+2022-08-23 15:26:13.849  INFO 11276 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:26:13.850  INFO 11276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:26:13.851  INFO 11276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-23 15:26:13.879  INFO 11276 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:26:13.879  WARN 11276 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:26:13.879 ERROR 11276 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:26:28.360  INFO 20272 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 20272 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:26:28.364  INFO 20272 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:26:29.389  INFO 20272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:26:29.398  INFO 20272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:26:29.399  INFO 20272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:26:29.500  INFO 20272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:26:29.501  INFO 20272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2022-08-23 15:26:29.888  INFO 20272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:26:29.898  INFO 20272 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.023 seconds (JVM running for 2.418)
+2022-08-23 15:27:15.324  INFO 19660 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 19660 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:27:15.328  INFO 19660 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:27:16.352  INFO 19660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:27:16.362  INFO 19660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:27:16.363  INFO 19660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:27:16.449  INFO 19660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:27:16.449  INFO 19660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2022-08-23 15:27:16.874  INFO 19660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:27:16.884  INFO 19660 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 1.99 seconds (JVM running for 2.402)
+2022-08-23 15:28:00.261  INFO 17664 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 17664 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:28:00.266  INFO 17664 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:28:01.359  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:28:01.369  INFO 17664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:28:01.370  INFO 17664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:28:01.500  INFO 17664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:28:01.500  INFO 17664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2022-08-23 15:28:01.912  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:28:01.923  INFO 17664 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.17 seconds (JVM running for 2.554)
+2022-08-23 15:28:18.834  INFO 3792 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 3792 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:28:18.838  INFO 3792 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:28:19.905  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:28:19.920  INFO 3792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:28:19.920  INFO 3792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:28:20.027  INFO 3792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:28:20.027  INFO 3792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2022-08-23 15:28:20.413  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:28:20.424  INFO 3792 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.05 seconds (JVM running for 2.477)
+2022-08-23 15:28:25.074  INFO 3792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:28:25.075  INFO 3792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:28:25.076  INFO 3792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-23 15:28:25.100  INFO 3792 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:28:25.101  WARN 3792 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:28:25.101 ERROR 3792 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:29:11.277  INFO 16316 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 16316 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:29:11.280  INFO 16316 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:29:12.374  INFO 16316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:29:12.388  INFO 16316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:29:12.389  INFO 16316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:29:12.492  INFO 16316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:29:12.492  INFO 16316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2022-08-23 15:29:12.897  INFO 16316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:29:12.907  INFO 16316 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.091 seconds (JVM running for 2.473)
+2022-08-23 15:29:19.155  INFO 16316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:29:19.156  INFO 16316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:29:19.157  INFO 16316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-23 15:29:19.182  INFO 16316 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:29:19.182  WARN 16316 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:29:19.182 ERROR 16316 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:31:37.248  INFO 3716 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 3716 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:31:37.253  INFO 3716 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:31:38.286  INFO 3716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:31:38.297  INFO 3716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:31:38.298  INFO 3716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:31:38.389  INFO 3716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:31:38.389  INFO 3716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1073 ms
+2022-08-23 15:31:38.767  INFO 3716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:31:38.777  INFO 3716 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.026 seconds (JVM running for 2.432)
+2022-08-23 15:31:52.311  INFO 17140 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 17140 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:31:52.316  INFO 17140 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:31:53.495  INFO 17140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:31:53.505  INFO 17140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:31:53.506  INFO 17140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:31:53.596  INFO 17140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:31:53.596  INFO 17140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2022-08-23 15:31:54.019  INFO 17140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:31:54.030  INFO 17140 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.229 seconds (JVM running for 2.692)
+2022-08-23 15:32:05.577  INFO 1084 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 1084 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:32:05.582  INFO 1084 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:32:06.645  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:32:06.656  INFO 1084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:32:06.657  INFO 1084 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:32:06.750  INFO 1084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:32:06.750  INFO 1084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2022-08-23 15:32:07.169  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:32:07.178  INFO 1084 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.124 seconds (JVM running for 2.542)
+2022-08-23 15:32:20.997  INFO 18704 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 18704 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:32:21.001  INFO 18704 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:32:22.018  INFO 18704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:32:22.026  INFO 18704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:32:22.028  INFO 18704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:32:22.152  INFO 18704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:32:22.152  INFO 18704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2022-08-23 15:32:22.544  INFO 18704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:32:22.554  INFO 18704 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.059 seconds (JVM running for 2.47)
+2022-08-23 15:32:24.641  INFO 18704 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:32:24.641  INFO 18704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:32:24.641  INFO 18704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-23 15:32:24.667  INFO 18704 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:32:24.668  WARN 18704 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:32:24.668 ERROR 18704 --- [http-nio-8080-exec-1] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
+2022-08-23 15:36:50.852  INFO 13296 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 13296 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:36:50.855  INFO 13296 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:36:51.903  INFO 13296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:36:51.912  INFO 13296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:36:51.912  INFO 13296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:36:52.009  INFO 13296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:36:52.009  INFO 13296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2022-08-23 15:36:52.415  INFO 13296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:36:52.425  INFO 13296 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.086 seconds (JVM running for 2.542)
+2022-08-23 15:37:21.057  INFO 19868 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 19868 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:37:21.061  INFO 19868 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:37:22.193  INFO 19868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:37:22.206  INFO 19868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:37:22.207  INFO 19868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:37:22.323  INFO 19868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:37:22.323  INFO 19868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
+2022-08-23 15:37:22.697  INFO 19868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:37:22.710  INFO 19868 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.108 seconds (JVM running for 2.512)
+2022-08-23 15:40:32.939  INFO 3932 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 3932 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:40:32.942  INFO 3932 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:40:33.960  INFO 3932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:40:33.971  INFO 3932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:40:33.972  INFO 3932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:40:34.069  INFO 3932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:40:34.069  INFO 3932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2022-08-23 15:40:34.455  INFO 3932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:40:34.467  INFO 3932 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.002 seconds (JVM running for 2.389)
+2022-08-23 15:40:34.470  INFO 3932 --- [main] com.spring_ej53.ej5.logging.Application  : Mensaje a nivel de INFO
+2022-08-23 15:40:34.470  WARN 3932 --- [main] com.spring_ej53.ej5.logging.Application  : Mensaje a nivel de WARNING
+2022-08-23 15:40:34.471 ERROR 3932 --- [main] com.spring_ej53.ej5.logging.Application  : Mensaje a nivel de ERROR
+2022-08-23 15:41:18.419  INFO 1072 --- [main] com.spring_ej53.ej5.logging.Application  : Starting Application using Java 17.0.4 on L2207013 with PID 1072 (C:\Users\manuel.resola\Downloads\ej5.3-logging\target\classes started by manuel.resola in C:\Users\manuel.resola\Downloads\ej5.3-logging)
+2022-08-23 15:41:18.423  INFO 1072 --- [main] com.spring_ej53.ej5.logging.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 15:41:19.695  INFO 1072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-23 15:41:19.704  INFO 1072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-23 15:41:19.705  INFO 1072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 15:41:19.791  INFO 1072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-23 15:41:19.792  INFO 1072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1303 ms
+2022-08-23 15:41:20.210  INFO 1072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 15:41:20.220  INFO 1072 --- [main] com.spring_ej53.ej5.logging.Application  : Started Application in 2.263 seconds (JVM running for 2.686)
+2022-08-23 15:41:23.444  INFO 1072 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 15:41:23.444  INFO 1072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-23 15:41:23.445  INFO 1072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-23 15:41:23.472  INFO 1072 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de INFO
+2022-08-23 15:41:23.473  WARN 1072 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de WARNING
+2022-08-23 15:41:23.473 ERROR 1072 --- [http-nio-8080-exec-2] c.s.ej5.logging.ControladorLogger        : Mensaje a nivel de ERROR
